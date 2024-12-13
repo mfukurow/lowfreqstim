@@ -1,3 +1,15 @@
+"""
+stim trigger App
+
+send single trigger pulse to a function generator
+and record the stimulus information in a csv file  
+
+efish lab
+Hokkaido University
+Author: Matasaburo Fukutomi
+Email: mfukurow@gmail.com
+"""
+
 from tdt import DSPCircuit, DSPError
 import csv
 import tkinter as tk
